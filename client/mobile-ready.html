@@ -1,0 +1,19 @@
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>mobile-ready</title>
+</head>
+
+<body></body>
+
+<template name="home">
+	<div class="my-template">
+		{{> UI.contentBlock}}
+	</div>
+</template>
+
+<template name="woo">
+	<h1>Another Template</h1>
+	{{#home}}
+		We're suppose to put content in here?
+	{{/home}}
+</template>
